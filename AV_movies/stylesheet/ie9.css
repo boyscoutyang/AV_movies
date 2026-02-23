@@ -1,0 +1,6 @@
+﻿#rwd-video section {
+  left: calc(100% / 2 - 350px)
+}
+#what-rwd figure span {
+  left: calc(100% / 2 - 125px)
+}

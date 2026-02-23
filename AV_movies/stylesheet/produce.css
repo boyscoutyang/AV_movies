@@ -1,0 +1,1013 @@
+#new-latest .bar {
+    background: url(images/footer.png) top center no-repeat;
+    padding: 35px 0 5px;
+    margin: 0 0 3px;
+    width: 100%
+}
+
+#new-latest .bar strong {
+    font-size: 25px;
+    text-align: center;
+    line-height: 27px;
+    color: #333;
+    display: block
+}
+
+#new-latest .bar strong span {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Hairline', seri, sans-serif;
+    color: #999;
+    display: block
+}
+
+#new-latest .container {
+    overflow: hidden
+}
+
+#new-latest .container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#new-latest .container ul li {
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: calc(100% / 5)
+}
+
+#produce-latest .link {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: rgba(221,75,30,0.9);
+    opacity: 0;
+    margin: 0;
+    height: 100%
+}
+
+#produce-latest .link:hover {
+    opacity: 10
+}
+
+#produce-latest .link a {
+    color: #fff
+}
+
+#new-latest .container ul li h3 {
+    font-size: 17px
+}
+
+#produce-latest {
+    background: url(images/footer.png) bottom center no-repeat;
+    padding: 0 0 50px;
+    width: 100%
+}
+
+#produce-latest .bar {
+    background: url(images/footer.png) top center no-repeat;
+    padding: 35px 0 5px;
+    margin: 0 0 3px;
+    width: 100%
+}
+
+#produce-latest #produce-nav {
+    text-align: center;
+    background: url(images/footer.png) top center no-repeat;
+    display: block;
+    padding: 15px 0;
+    margin: 0 0 10px;
+    width: 100%
+}
+
+#produce-latest #produce-nav a {
+    color: #969696;
+    letter-spacing: 3px;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 7px
+}
+
+[id^="produce-"] .produce-48 {
+    display: none !important
+}
+
+#produce-latest #produce-nav a:after {
+    color: #ccc;
+    content: '/';
+    padding: 0 0 0 7px
+}
+
+#produce-latest #produce-nav a:hover {
+    color: #ddd !important
+}
+
+#produce-latest strong {
+    font-size: 25px;
+    text-align: center;
+    line-height: 27px;
+    color: #333;
+    display: block
+}
+
+#produce-latest strong span {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Hairline', seri, sans-serif;
+    color: #999;
+    display: block
+}
+
+#produce-latest .container {
+    position: relative;
+    z-index: 6;
+    padding: 0 0 40px;
+    min-height: 400px
+}
+
+#produce-latest .load-img,#produce-latest .load-img img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    transition: all 0.2s ease-in
+}
+
+#produce-latest .load-img {
+    top: 0;
+    bottom: 0;
+    background: #fff
+}
+
+#produce-latest .load-img img {
+    top: 30%;
+    margin: auto
+}
+
+#produce-latest .container {
+    text-align: center;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 1449.59px
+}
+
+#produce-latest .container ul {
+    text-align: center;
+    overflow: hidden
+}
+
+#produce-latest .container ul li {
+    position: relative;
+    float: left;
+    padding: 5px;
+    margin: 0 0 15px;
+    width: calc(100% / 5)
+}
+
+#produce-latest .container ul li:nth-child(5n) {
+    margin-right: 0
+}
+
+#produce-latest .link,#produce-latest .link:hover {
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    transition: all 0.2s ease-in
+}
+
+#produce-latest .link {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: rgba(221,75,30,0.9);
+    opacity: 0;
+    margin: 0;
+    height: 100%
+}
+
+#produce-latest .link:hover {
+    opacity: 10
+}
+
+#produce-latest .link a {
+    color: #fff
+}
+
+#produce-latest .link figure {
+    position: absolute;
+    top: calc(100% / 2 - 20px);
+    left: 30px;
+    right: 30px;
+    text-align: center
+}
+
+#produce-latest .link figure a {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px
+}
+
+#produce-latest .link span a {
+    font-size: 30px;
+    font-weight: normal
+}
+
+#produce-latest .link:hover {
+    filter: alpha(opacity=100);
+    -moz-opacity: 10;
+    opacity: 10
+}
+
+#produce-latest li:hover img {
+    -webkit-filter: grayscale(0.3) blur(3px)
+}
+
+#produce-latest .image {
+    display: block;
+    margin-bottom: 10px
+}
+
+#produce-latest .image,#produce-latest .image img {
+    width: 100%
+}
+
+#produce-latest img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 200px
+}
+
+#produce-latest .more {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 120px
+}
+
+#produce-latest .name {
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    overflow: hidden
+}
+
+#produce-latest .button strong {
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden
+}
+
+#produce-lists {
+    padding: 120px 0 0
+}
+
+#produce-lists .design {
+    padding: 30px 0 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1449.59px
+}
+
+#produce-lists .design h1 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #333
+}
+
+#produce-lists .design h1 span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ccc;
+    display: block
+}
+
+#produce-lists #produce-nav {
+    text-align: center;
+    line-height: 40px;
+    background: 0;
+    display: block;
+    margin: 0 auto 10px;
+    width: 100%;
+    max-width: 1449.59px;
+    overflow: hidden
+}
+
+#produce-lists #produce-nav ul {
+    text-align: center
+}
+
+#produce-lists #produce-nav ul li {
+    display: inline-table
+}
+
+#produce-lists #produce-nav a {
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin: 0 15px 0 0
+}
+
+.produce-hover {
+    color: #ccc !important
+}
+
+#produce-lists .record {
+    display: none
+}
+
+#produce-lists .heading {
+    background: #000;
+    height: 210px
+}
+
+#produce-lists .container {
+    position: relative;
+    margin: 0 auto 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 1449.59px;
+    min-height: 600px;
+    overflow: hidden
+}
+
+#produce-lists .container ul {
+    overflow: hidden
+}
+
+#produce-lists .none {
+    padding: 100px 0 0;
+    text-align: center
+}
+
+#produce-lists .container ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    text-align: center;
+    padding: 10px 10px 0;
+    margin: 0 0 10px;
+    width: calc(100% / 4);
+    overflow: hidden
+}
+
+#produce-lists .container ul li:nth-child(4n) {
+    margin-right: 0
+}
+
+#produce-lists .link,#produce-lists .link:hover {
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    transition: all 0.2s ease-in
+}
+
+#produce-lists .link {
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: rgba(221,75,30,0.9);
+    opacity: 0;
+    margin: 0;
+    height: 100%
+}
+
+#produce-lists .link:hover {
+    opacity: 10
+}
+
+#produce-lists .link a {
+    color: #fff
+}
+
+#produce-lists .link figure {
+    position: absolute;
+    top: calc(100% / 2 - 20px);
+    left: 0;
+    right: 0;
+    text-align: center
+}
+
+#produce-lists .link figure a {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px
+}
+
+#produce-lists .link span a {
+    font-size: 30px;
+    font-weight: normal
+}
+
+#produce-lists .image img {
+    margin: 0 0 10px;
+    border: 1px #eee solid;
+    width: 100%;
+    height: 350px
+}
+
+#produce-lists .name,#produce-lists .property,#produce-lists .design {
+    font-size: 14px;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 25px;
+    display: block
+}
+
+#produce-lists .name {
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    letter-spacing: 2px;
+    color: #666;
+    width: 100%;
+    overflow: hidden
+}
+
+#produce-lists .description {
+    display: none
+}
+
+#content li {
+    display: none
+}
+
+#produce-lists #pagination {
+    text-align: center;
+    display: block;
+    margin: 0 auto 40px;
+    width: 90%;
+    max-width: 1449.59px
+}
+
+#produce-lists #pagination li {
+    float: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px 0 0;
+    width: initial
+}
+
+#produce-lists #pagination a {
+    line-height: 25px;
+    background: 0;
+    display: block;
+    padding: 0 5px;
+    border: 0;
+    height: 20px
+}
+
+#produce-lists #pagination li a.hover {
+    color: #ccc
+}
+
+#produce-lists .load-img,#produce-lists .load-img img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99999
+}
+
+#produce-lists .load-img {
+    top: 0;
+    bottom: 0;
+    background: 0
+}
+
+#produce-lists .load-img img {
+    top: 30%;
+    margin: auto
+}
+
+#produce-detail {
+    padding: 60px 0 0
+}
+
+#produce-detail .heading {
+    display: none
+}
+
+#produce-detail .container {
+    padding: 80px 0 0;
+    width: 100%
+}
+
+#produce-detail .left,#show .left {
+    margin: auto;
+    width: 90%;
+    max-width: 1449.59px;
+    overflow: hidden
+}
+
+#produce-detail .left figure,#show .left figure {
+    float: left;
+    display: block;
+    padding: 20px 0;
+    width: 50%
+}
+
+#produce-detail .image {
+    position: relative;
+    text-align: center
+}
+
+#produce-detail .image img,#show .image img {
+    max-width: 100%;
+    height: auto
+}
+
+#produce-detail .mac {
+    position: relative;
+    z-index: 3
+}
+
+#produce-detail #produce-image {
+    position: absolute;
+    top: 3%;
+    left: 0;
+    bottom: 25%;
+    z-index: 0;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    behavior: url(pie/pie.php)
+}
+
+.mac-mos {
+    position: relative;
+    top: -20px;
+    left: 0;
+    max-width: 100%;
+    height: auto
+}
+
+#produce-detail .left ul,#show .left ul {
+    float: right;
+    display: block;
+    padding: 20px 2%;
+    width: 50%
+}
+
+#produce-detail .left ul li,#show .left ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0 20px 10px
+}
+
+#produce-detail .left ul li span,#produce-detail .left ul li a {
+    display: inline-block
+}
+
+#produce-detail .left ul li span:nth-child(1) {
+    color: #000;
+    width: 80px
+}
+
+#produce-detail .left ul li span:nth-child(2) {
+    color: #999;
+    width: calc(100% - 100px)
+}
+
+#produce-detail .left ul li a {
+    text-transform: uppercase
+}
+
+#produce-detail .left ul li:nth-child(1) span:nth-child(1) {
+    font-size: 4em;
+    font-family: 'Montserrat Hairline';
+    white-space: nowrap;
+    letter-spacing: -1px;
+    color: #ddd;
+    display: block;
+    padding: 0 0 35px
+}
+
+#produce-detail .left ul li:nth-child(1) span:nth-child(2) {
+    font-size: 25px;
+    color: #333;
+    white-space: nowrap;
+    display: block;
+    margin: 0 0 20px;
+    padding: 0 0 18px;
+    border-bottom: 1px #c7c7c7 solid
+}
+
+#produce-detail .left ul li nav {
+    margin: 25px 0;
+    overflow: hidden
+}
+
+#produce-detail .left ul li .button {
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 39px;
+    color: #fff;
+    background: #000;
+    width: 120px;
+    height: 39px
+}
+
+#produce-detail .left ul li .button:hover {
+    color: #fff;
+    background: #ccc
+}
+
+#produce-detail .left .description {
+    padding: 0;
+    margin: 0 0 30px
+}
+
+#produce-detail .gallery {
+    padding: 5px 0
+}
+
+#produce-detail .gallery a {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    border: 3px #ccc solid
+}
+
+#produce-detail .right {
+    padding: 20px 0 60px;
+    margin: 0 auto;
+    border-top: 1px #eee solid;
+    width: 90%;
+    max-width: 1449.59px
+}
+
+#produce-detail .detail {
+    line-height: 28px;
+    letter-spacing: 3px;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%
+}
+
+#produce-detail .detail>span {
+    font-size: 3.4em;
+    font-family: 'Montserrat Hairline';
+    text-transform: capitalize;
+    color: #000;
+    display: block;
+    padding: 0 0 20px;
+    margin: 0 0 20px
+}
+
+#produce-detail .detail a {
+    position: relative;
+    top: -2px;
+    font-size: 14px;
+    display: inline-block
+}
+
+#produce-detail .detail img {
+    display: block;
+    margin: 50px 0;
+    width: 100%;
+    height: auto
+}
+
+#mobile-show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background: #f2f2f2
+}
+
+#mobile-show .close {
+    position: relative;
+    top: 40px;
+    right: 0;
+    z-index: 9999;
+    font-size: 30px;
+    text-align: right;
+    display: block;
+    margin: 50px auto 0;
+    width: 335px
+}
+
+#mobile-show .container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background: #e9e9e9 center no-repeat;
+    -webkit-box-shadow: #ccc 0 0 5px;
+    -moz-box-shadow: #ccc 0 0 5px;
+    box-shadow: #c9c9c9 2px 2px 20px;
+    behavior: url(pie/pie.php);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    behavior: url(pie/pie.php);
+    margin: auto;
+    width: 400px;
+    height: 620px;
+    -webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9)
+}
+
+.iframe {
+    position: relative;
+    top: 60px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    width: 365px;
+    height: 495px
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    #produce-latest .container ul li {
+        position:relative;
+        float: left;
+        padding: 10px;
+        margin: 0 0 15px;
+        width: calc(100% / 4)
+    }
+
+    #produce-latest .container ul li:nth-child(9),#produce-latest .container ul li:nth-child(10) {
+        display: none !important
+    }
+
+    #produce-latest .container ul li:nth-child(4n) {
+        margin-right: 0
+    }
+
+    #produce-lists .container {
+        width: 90%
+    }
+
+    #produce-lists .container ul li {
+        width: calc(100% / 4)
+    }
+
+    #produce-lists .container ul li:nth-child(4n) {
+        margin-right: 0
+    }
+
+    #produce-detail .left ul li:nth-child(1) span:nth-child(1) {
+        font-size: 3.5em;
+        letter-spacing: -2px
+    }
+
+    #produce-detail .left ul li:nth-child(1) span:nth-child(2) {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #produce-latest .container ul li {
+        position:relative;
+        float: left;
+        padding: 10px;
+        margin: 0 0 15px;
+        width: calc(100% / 3)
+    }
+
+    #produce-latest .container ul li:nth-child(3n) {
+        margin-right: 0
+    }
+
+    #produce-latest .container ul li:nth-child(10) {
+        display: none !important
+    }
+
+    #produce-lists .container {
+        padding: 0;
+        width: 100%
+    }
+
+    #produce-lists .container ul {
+        width: inherit
+    }
+
+    #produce-lists .container ul li {
+        width: calc(100% / 3)
+    }
+
+    #produce-lists .container ul li:nth-child(3n) {
+        margin-right: 0
+    }
+
+    #produce-detail .left ul li:nth-child(1) span:nth-child(1) {
+        font-size: 3em;
+        letter-spacing: -2px
+    }
+
+    #produce-detail .left ul li:nth-child(1) span:nth-child(2) {
+        font-size: 18px
+    }
+
+    #produce-detail .left figure {
+        float: none;
+        display: block;
+        padding: 20px 0;
+        margin: auto
+    }
+
+    #produce-detail .left figure,#show .left figure {
+        width: 90%
+    }
+
+    #produce-detail .left ul {
+        float: none;
+        display: block;
+        padding: 20px 2%;
+        margin: auto;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 829px) {
+    #produce-latest .container ul li {
+        position:relative;
+        float: left;
+        padding: 10px;
+        margin: 0 0 15px;
+        width: calc(100% / 2)
+    }
+
+    #produce-latest .container ul li:nth-child(2n) {
+        margin-right: 0
+    }
+
+    #produce-lists #produce-nav {
+        display: block;
+        padding: 0 3%;
+        width: 94%;
+        overflow: scroll;
+        width: 100%;
+        overflow-x: scroll
+    }
+
+    #produce-lists #produce-nav ul {
+        text-align: left;
+        width: 780px
+    }
+
+    #produce-lists #produce-nav a {
+        padding: 0 5px
+    }
+
+    #produce-latest #produce-nav {
+        display: none
+    }
+
+    #produce-latest .container ul,#produce-lists .container ul {
+        width: 100%
+    }
+
+    #produce-latest .container ul li,#produce-lists .container ul li {
+        margin: 0 1% 10px;
+        width: calc(96% / 2)
+    }
+
+    #produce-detail .left figure {
+        float: none;
+        display: block;
+        padding: 20px 0;
+        margin: auto
+    }
+
+    #produce-detail .left figure,#show .left figure {
+        width: 90%
+    }
+
+    .mac-mos {
+        position: relative;
+        top: -20px;
+        left: 0;
+        max-width: 100%;
+        height: auto
+    }
+
+    #produce-detail .left ul {
+        float: none;
+        display: block;
+        padding: 20px 2%;
+        margin: auto;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #produce-latest .container ul li {
+        position:relative;
+        float: left;
+        padding: 10px;
+        margin: 0;
+        width: calc(100% / 1)
+    }
+
+    #produce-latest .container ul li:nth-child(1n) {
+        margin-right: 0
+    }
+
+    #produce-lists #produce-nav a {
+        padding: 0 5px
+    }
+
+    #produce-latest #produce-nav {
+        display: none
+    }
+
+    #produce-lists #produce-nav {
+        display: block;
+        padding: 0 3%;
+        width: 94%;
+        overflow: scroll
+    }
+
+    #produce-lists #produce-nav span {
+        display: block;
+        width: 760px;
+        height: 40px
+    }
+
+    #produce-lists .container ul {
+        width: 100%
+    }
+
+    #produce-lists .container ul li {
+        padding: 0;
+        margin: 0 0 25px;
+        width: calc(100% / 1)
+    }
+
+    #produce-lists {
+        padding: 90px 0 0
+    }
+
+    .mac-mos {
+        position: relative;
+        top: -20px;
+        left: 0;
+        max-width: 100%;
+        height: auto
+    }
+
+    #produce-detail .left figure {
+        float: none;
+        display: block;
+        padding: 20px 0;
+        margin: auto
+    }
+
+    #produce-detail .left figure,#show .left figure {
+        width: 90%
+    }
+
+    #produce-detail .left ul {
+        float: none;
+        display: block;
+        padding: 20px 2%;
+        margin: auto;
+        width: 100%
+    }
+
+    #produce-detail .left ul li .button {
+        float: none;
+        display: block;
+        margin: 10px auto 0;
+        width: 60%;
+        height: 39px
+    }
+}
