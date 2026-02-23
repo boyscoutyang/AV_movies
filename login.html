@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--  -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>網頁登入</title>
+    <script src="stylesheet/login.js"></script>
+    <link href="stylesheet/style.css" rel='stylesheet' type='text/css' />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfonts-->
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+</style>
+</head>
+<body>
+    <h1> </h1>
+    <div class="app-location">
+         <div class="location"><img src="images/03.jpg" class="img-responsive" alt="03.jpg" width="200" /></div>
+    <form id="loginForm">
+        <input type="text" id="username" value="admin" name="username" required>
+        <br><br>
+        <input type="password" id="password" value="pass" name="password" required>
+        <br><br>
+        <div class="submit"><button class="submit" type="button" onclick="login()" >登入</button></div>
+        <div class="clear"></div>
+        <div class="new">
+            <h3 class="tooltip"><a href="#">忘記密碼？</button><div class="tooltiptext">AV</div></h3>
+            <h4 class="tooltip"><a href="#">新註冊！</a><div class="tooltiptext">無！</div></h4>
+            <div class="clear"></div>
+        </div>
+    </form>
+    <p id="loginResult"></p>
+</div>
+</body>
+</html>
